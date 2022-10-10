@@ -1,0 +1,4 @@
+@host_url=http://localhost:5000
+
+### Landing URL "/", it will be redirected to "/time"
+GET {{host_url}} HTTP/1.1

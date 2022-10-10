@@ -1,0 +1,4 @@
+@host_url=http://localhost:5000
+
+### Make Anonymous
+GET {{host_url}}/time HTTP/1.1

@@ -1,0 +1,4 @@
+@host_url=http://localhost:5000
+
+### POST/PUT are not supported, so expect 403 (Forbidden)
+POST {{host_url}}/time/ProductiveAnalytics HTTP/1.1

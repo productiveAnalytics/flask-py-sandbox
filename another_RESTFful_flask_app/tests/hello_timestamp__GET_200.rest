@@ -1,0 +1,4 @@
+@host_url=http://localhost:5000
+
+### Only GET is supported
+GET {{host_url}}/time/ProductiveAnalytics HTTP/1.1

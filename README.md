@@ -20,3 +20,7 @@ Dockerized app:
 - To use PipEnv, use file : Dockerfile_for_PipEnv
 - docker build . --file Dockerfile_for_PipEnv --tag flask-app-pipenv
 - docker run -p 5000:5000 -t flask-app-pipenv
+
+----
+
+Also refer branch: https://github.com/productiveAnalytics/flask-py-sandbox/tree/feature/another_RESTful_flask_app
